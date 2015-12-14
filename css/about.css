@@ -1,0 +1,23 @@
+body{background-color: rgb(250,250,250);}
+#wrap{width: 980px; min-width: 980px; height:auto; background-color:#fff; overflow: hidden;  margin: 0 auto; position: relative; margin-top: 100px; margin-bottom: 80px;}
+#line{width: 6px; height: 1200px; background-color: rgb(250,250,250); position: absolute; left: 50%; z-index: 0}
+
+#name>img{display: block; width: 160px; height: auto; border-radius:100px; border: 10px solid rgb(240,240,240); position: relative; margin:0 auto; top: -60px;z-index: 1}
+#name h1{font-size: 20px; width:90px; position: relative; margin:0 auto; left: -60px;}
+#name p{ font-size: 14px; width: 320px; position: relative; margin: 0 auto; left: 220px;top: -20px;}
+
+#contact{margin-top: 60px;}
+#contact>img{display: block;width: 100px; height: 100px; border-radius: 100px; border: 6px solid rgb(240,240,240); position: relative;margin: 0 auto; top: -50px;}
+#contact h1{font-size: 20px; width:90px; position: relative; margin:0 auto; left: -80px;}
+#contact p{ font-size: 14px; width: 320px; position: relative; margin: 0 auto; left: 220px;top: -16px;}
+
+#edu{margin-top: 80px;}
+#edu>img{display: block;width: 100px; height: 100px; border-radius: 100px; border: 6px solid rgb(240,240,240); position: relative;margin: 0 auto; top: -50px;}
+#edu h1{font-size: 20px; width:90px; position: relative; margin:0 auto; left: -80px;}
+#edu p{ font-size: 14px; width: 320px; position: relative; margin: 0 auto; left: 220px;top: -48px;}
+#edu span{display: block; border: 6px solid rgb(240,240,240); border-radius: 4px; background-color: white; width: 50px; padding: 4px 0;text-align: center; position: relative; margin: 0 auto; left: 2px; top: -24px; font-size: 12px; }
+
+#work{margin-top: 80px;margin-bottom:100px; }
+#work>img{display: block;width: 100px; height: 100px; border-radius: 100px; border: 6px solid rgb(240,240,240); position: relative;margin: 0 auto; top: -50px;}
+#work h1{font-size: 20px; width:90px; position: relative; margin:0 auto; left: -80px;}
+#work p{ font-size: 14px; width: 320px; position: relative; margin: 0 auto; left: 220px;top: -20px; }
