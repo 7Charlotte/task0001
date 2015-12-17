@@ -1,26 +1,34 @@
 *{margin: 0;padding: 0;}
 #article-bg{background-color: rgba(240,240,240,1);}
 #article-wrap{width: 980px; margin: 0 auto; position: relative; padding-top: 20px;}
-#article-content{width: 710px; }
+#article-content{width: 710px; padding-bottom: 30px; }
 #article-content:after{content: ""; display:block; clear: both; }/*伪类清除浮动*/
 
 #article-content nav li{ float: left; padding: 15px 20px 20px 20px; list-style-type: none; background-color: #fff; font-size: 12px; border-top: 5px solid rgba(220,220,230,1); border-left: 1px solid rgba(220,220,230,1); border-bottom: 1px solid rgba(220,220,230,1); }
-#article-content nav .hover{border-top: 5px solid rgba(255,24,245,1);border-bottom: 0px; }
+#article-content nav .hover{border-top: 5px solid rgba(255,24,245,1);border-bottom: 0px;}
 
-#article-content section{ background-color: white; width: 710px;}
+#article-content section{ background-color: white;  padding-left: 20px; padding-top: 70px; padding-bottom: }
 #article-content section:after{content: ""; display:block; clear: both; }/*伪类清除浮动*/
-#article-content section .big-box{ width: 330px; height: auto;  float: left;}
+#article-content section .big-box{ width: 330px; height: auto;  float: left; margin-right: 10px;}
 #article-content section .big-box img{width: 330px; }
 #article-content section .big-box .p-box{ width: 330px; background-color: purple; position: relative;}
 #article-content section .big-box .p-box p{width: 250px; color: white; font-size: 16px; position: relative; left: 60px; padding: 20px 0 20px 0;}
 #article-content section .big-box .p-box .number{ display:block; position: absolute; left: 18px; top: 20px; line-height:25px; text-align: center; color:white; width:25px; height:25px; border-radius: 25px; border: 1px solid #fff}
 
-#article-content section .small-box{ width: 160px; float: left;}
+#article-content section .small-box{ width: 160px; float: left; margin-right: 10px;}
 #article-content section .small-box img{width: 160px; }
 #article-content section .small-box .p-box{ width: 160px; background-color: #ff3f32; position: relative;}
 #article-content section .small-box .p-box p{width: 90px; color: white; font-size: 16px; position: relative; left: 60px; padding: 20px 0 20px 0;}
 #article-content section .small-box .p-box .number{ display:block; position: absolute; left: 18px; top: 20px; line-height:25px; text-align: center; color:white; width:25px; height:25px; border-radius: 25px; border: 1px solid #fff}
 
 
-aside{width: 260px; margin-left: 10px; position: absolute; right: 0px; top: 0px; background-color: #fff; margin-top: 75px;}
+#article-content #more{width: 710px; height: 50px; background-color: white; margin-top: 10px; position: relative;  }
+#article-content #more span{ display: inline-block; position: absolute; left: 50%; margin-top: 18px; font-size: 12px; font-family: "SimSun";}
 
+
+aside{width: 260px; margin-left: 10px; position: absolute; right: 0px; top: 0px;  margin-top: 20px;}
+aside #search{background-color: #fff; padding: 20px; }/*mmmmmm马克！！将外面的盒子的padding设置为20，能让内部盒子居中显示；*/
+aside #search #search-box{width: 220px; height: 40px;  border: 1px solid #333;  background-color: #fff; }
+aside #search #search-box img{display: inline-block; width: 26px; height: auto; position: relative; top: 6px; left: 6px; }
+aside #search #search-box input{border: 0; width:135px; padding-left: 10px;}
+aside #search #search-box span{ display: inline-block; padding: 12px 6px; border-left: 1px solid #333; background: #999; color: white;font-size: 16px;}
