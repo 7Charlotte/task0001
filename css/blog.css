@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;}
+#blog-bg{background-color: rgba(240,240,240,1);}
+#blog-wrap{width: 980px; margin: 0 auto; position: relative; padding-top: 20px;}
+#blog-content{width: 710px; padding-bottom: 30px; }
+#blog-content:after{content: ""; display:block; clear: both; }/*伪类清除浮动*/
+
+
+#blog-content section{position: relative; margin-bottom: 10px;}
+#blog-content article{background-color: white; padding: 20px 20px 40px 20px; font-family: "SimSun"; position: relative;}
+#blog-content article h1{font-size: 16px; color: purple; line-height: 30px; font-weight: bold;}
+#blog-content article h2{font-size: 14px; color: #666; line-height: 30px; font-weight: bold;}
+#blog-content article p{font-size: 12px; color: #666; line-height: 30px; text-indent: 2em;}
+#blog-content article .author{font-size: 12px; line-height: 30px; color: #999; position: absolute;right: 20px;}
+#blog-content .date{display: inline-block; width: 50px; height: 40px; background-color: purple; color: white; text-align: center; line-height: 40px; position: absolute;left: -50px; top: 0px;}
+#blog-content .cate{display: inline-block; width: 50px; height: 40px; background-color: #f14311; color: white; text-align: center; line-height: 40px; position: absolute;left: -50px; top: 40px;}
+
+
+
+

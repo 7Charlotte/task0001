@@ -32,3 +32,19 @@ aside #search #search-box{width: 220px; height: 40px;  border: 1px solid #333;  
 aside #search #search-box img{display: inline-block; width: 26px; height: auto; position: relative; top: 6px; left: 6px; }
 aside #search #search-box input{border: 0; width:135px; padding-left: 10px;}
 aside #search #search-box span{ display: inline-block; padding: 12px 6px; border-left: 1px solid #333; background: #999; color: white;font-size: 16px;}
+
+#rank{width: 240px; background-color: white; margin-top: 10px; padding: 20px 0px 40px 20px; }
+#rank #title{display:block;  font-size: 16px; color: #666; font-family: "SimSun";margin-bottom: 30px;}
+#rank li{ list-style: none; margin-bottom: 10px;}
+#rank li .list-number{ display: inline-block; width: 12px; height: 12px; vertical-align: middle; text-align:center; line-height: 12px; border: 1px solid purple; border-radius: 6px; background-color: purple; font-family: "SimSun"; font-size: 12px; color: white; }
+#rank li .bar-chart{ display: inline-block; width: 100px; height: 16px; background-color: white; border: 1px solid #333;vertical-align: middle; }
+#rank li .bar-chart #rank1 {display: inline-block; width: 100px; height: 16px; background-color: purple; }
+#rank li .bar-chart #rank2 {display: inline-block; width: 78px; height: 16px; background-color: purple; }
+#rank li .bar-chart #rank3 {display: inline-block; width: 60px; height: 16px; background-color: purple; }
+#rank li .bar-chart #rank4 {display: inline-block; width: 30px; height: 16px; background-color: purple; }
+#rank li .bar-chart #rank5 {display: inline-block; width: 20px; height: 16px; background-color: purple; }
+#rank li .text{ display:inline-block;  font-size: 14px; color: #666; margin-left: 10px; vertical-align: middle;}
+
+
+
+
