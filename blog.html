@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="stylesheet" type="text/css" href="./css/blog.css">
 	<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+	<meta charset="utf-8" >
 </head>
 <body>
 	<header>
@@ -79,7 +80,7 @@
 					</article>
 				</section>
 				<div id="pagition">
-					
+					<span class="page-btn page-disabled">第一页</span> <span class="page-btn page-disabled">上一页</span> <span class="page-number" id="page-selected">1</span> <span class="page-number">2</span> <span class="page-number">3</span> <span class="page-number">4</span> <span class="page-number">...</span> <span class="page-btn">下一页</span> <span class="page-btn">末页</span>
 				</div>
 			</div>
 			<aside>
@@ -90,13 +91,47 @@
 						<span>GO</span>
 					</div>
 				</div>
-				<div id="rank">
-					<span id="title">人气排行榜</span>
-					<li><span class="list-number">1</span> <span class="bar-chart"><span id="rank1"></span></span> <span class="text">ui.tree</span></li>
-					<li><span class="list-number">2</span> <span class="bar-chart"><span id="rank2"></span></span> </span><span class="text">ui.tree</span></li>
-					<li><span class="list-number">3</span> <span class="bar-chart"><span id="rank3"></span></span> <span class="text">app.todo</span></li>
-					<li><span class="list-number">4</span> <span class="bar-chart"><span id="rank4"></span></span> <span class="text">ui.tab</span></li>
-					<li><span class="list-number">5</span> <span class="bar-chart"><span id="rank5"></span></span> <span class="text">ui.tree</span></li>
+
+				<div id="catelog">	
+					<li>HTML</li>
+					<li class="selected">CSS</li>
+					<li>Javascript</li>
+					<li>其他文章</li>
+				</div>
+
+				<div id="calender">
+					<span id="left"> < </span>2015.4<span id="right"> > </span>
+					<table>
+						<tr>
+							<th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th><th>S</th>
+						</tr>
+						<tr>
+							<td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>
+						</tr>	
+						<tr>
+							<td class="today">1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>
+						</tr>	
+						<tr>
+							<td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>
+						</tr>
+						<tr>
+							<td>1</td> <td>2</td> <td>3</td> <td>4</td> <td></td> <td></td> <td></td>
+						</tr>					
+					</table>
+				</div>
+
+				<div id="tag-cloud">
+					<span>Tags</span>
+					<h1>javascript</h1>
+					<h4>CSS</h4>
+					<h6>flex</h6>
+					<h6>flex</h6>
+					<h2>HTML</h2>
+					<h6>Canvas</h6>
+					<h6>WebGL</h6>
+					<h3>Jquery</h3>
+					<h3>Echarts</h3>
+					<h6>node.js</h6>
 				</div>
 			</aside>
 		</div>

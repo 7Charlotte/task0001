@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;}
 #blog-bg{background-color: rgba(240,240,240,1);}
 #blog-wrap{width: 980px; margin: 0 auto; position: relative; padding-top: 20px;}
-#blog-content{width: 710px; padding-bottom: 30px; }
+#blog-content{width: 710px; padding-bottom: 60px; position: relative;}
 #blog-content:after{content: ""; display:block; clear: both; }/*伪类清除浮动*/
 
 
@@ -14,6 +14,29 @@
 #blog-content .date{display: inline-block; width: 50px; height: 40px; background-color: purple; color: white; text-align: center; line-height: 40px; position: absolute;left: -50px; top: 0px;}
 #blog-content .cate{display: inline-block; width: 50px; height: 40px; background-color: #f14311; color: white; text-align: center; line-height: 40px; position: absolute;left: -50px; top: 40px;}
 
+#blog-content #pagition{position: absolute; right: 0;}
+#blog-content #pagition .page-btn{ display: inline-block; width: 70px; height: 30px; line-height: 30px; font-size: 12px; font-family: "SimSun"; text-align: center; color: #666; background-color: white; margin-left: 10px;}
+#blog-content #pagition .page-disabled{ color: #eee;}
+#blog-content #pagition .page-number{ display: inline-block; width: 30px; height: 30px; line-height: 30px; font-size: 12px; text-align: center;background-color: white; margin-left: 10px;}
+#blog-content #pagition #page-selected{ background-color: purple; color: white;}
 
+#catelog{background-color: white; margin-top: 10px;}
+#catelog li{ height: 40px; line-height: 40px; border-left: 5px solid rgba(234,23,32,.5); list-style: none; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding-left: 20px;}
+#catelog .selected{ border-left: 5px solid rgb(234,23,32)}
 
+#calender{width: 260px; padding: 30px 0px; background-color: white;margin-top: 10px;position: relative; text-align: center; color: purple; font-size: 14px;}
+#calender span{ display: inline-block; }
+#calender #left{position: absolute; left: 30px;}
+#calender #right{position: absolute; right: 30px;}
+table{ width: 220px; margin-top: 10px;border-collapse: collapse; margin:0 auto; empty-cells: hide;}
+th,td{border-bottom: 1px solid #ccc; height: 34px; width: 34px; text-align: center; color: #666; font-size: 12px; font-family: "Times New Roman";}
+table .today{color:white; background-color: purple;}
 
+#tag-cloud{padding:20px;background-color:white;margin-top: 10px; color: purple;}
+#tag-cloud span {display:block; font: 16px " Arial SimSun" ; color: #666; margin-bottom: 20px;}
+#tag-cloud h1,h2,h3,h4,h5,h6{ display: inline-block;margin-bottom: 10px;}
+#tag-cloud h1{font-size: 36px;}
+#tag-cloud h2{font-size: 28px;}
+#tag-cloud h3{font-size: 24px;}
+#tag-cloud h4{font-size: 16px;}
+#tag-cloud h6{font-size: 12px;}
